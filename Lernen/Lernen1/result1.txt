@@ -1,0 +1,100 @@
+pygame-functions (0.0.1)             - Pygame Functions
+pygame-input (1.0.0)                 - pygame-input is a tool to simplify input handling with pygame
+pygame-widgets (0.2.7)               - Widgets for use with Pygame
+pygame-geometry (0.1.2)              - Geometry environment for pygame.
+pygame-anisprite (1.0.0)             - Animated sprites for PyGame!
+pygame-pgu (0.21)                    - Phil's pyGame Utilities - a collection of handy modules and scripts for PyGame.
+dinosaur-pygame (0.0.9)              - A dinosaur game made with pygame
+pygame-gui (0.5.7)                   - A GUI module for pygame 2
+pygame-texteditor (0.6)              - A WYSIWYG-texteditor based on pygame.
+pygame-assets (0.1)                  - Assets manager for Pygame apps
+pygame-frame (0.0.6)                 - A lib to simplify the use of pygame
+pygame-engine (0.0.6)                - Simple pygame game engine.
+pygame-colliders (0.1.4)             - Polygon collider library for Pygame
+pygame-ai (0.1.2)                    - Videogame AI package for PyGame
+pygame-txt (0.0.2)                   - Library for working with text in Pygame.
+utils-pygame (0.0.1)                 - A compilation of utility tools for pygame
+pygame-vkeyboard (2.0.7)             - Visual keyboard highly customizable for pygame.
+pygame-button (0.0.2)                - A very simple button class for pygame
+pygame-dashboard (0.0.1)             - Simples elements of Dashboard from PyGame
+pygame-menu (3.3.2)                  - A menu for pygame, simple, lightweight and easy to use
+pygame-minesweeper (1.0.10)          - Minesweeper game implemented in python using pygame
+pygame-spritesheet (0.2.0)           - Python pygame extension that provides SpriteSheet class.
+pygame-markdown (1.0.8)              - A renderer for markdown text onto pygame surfaces.
+pygame-plot (0.1)                    - Quick visualization of data using pygame with a matplotlib style
+pygame-minesweeper-sprites (1.0.41)  - Minesweeper sprites for pygame applications
+nhefner-pygame-menus (1.0)           - Menu System for Pygame Games
+pygame (2.0.0)                       - Python Game Development
+gym-minecraft-pygame (0.1.0)         - Gym Minecraft environment using Pygame
+gym-breakout-pygame (0.1.1)          - Gym Breakout environment using Pygame
+departure-server-pygame (1.0.0)      - Pygame Departure board back end
+snake-on-pygame (1.0)                - Snake implemented on pygame meant to be used by human and AI agents
+izi-pygame (0.1.9)                   - A small package who's made pygame easier about the drawing rects, the pictures, the fonts and the windows. You have to install pygame. To import write: import izi_pygame In the 0.1.9 version -> add Fontstring object (work with Printstring)! Call izi_pygame.doc() the github of the project will open. dowload project and open /doc/index.html with your browser. A DOCUMENTATION is also available on my github (the same as izi_pygame.doc()), read it if you want to understand the role of this package!
+pygame-controller (0.1.0)            - Helper class to interface robots to game controllers on the Raspberry Pi.
+pygame-minesweeper-core (1.0.18)     - Minesweeper game core library
+pygstuff (0.0.3)                     - PYGame Stuff for writing pygame applications
+CoreEngine (0.0.0.12)                - PyGame GameEngine
+PyGameUtilities (0.26)               - Simplifies PyGame
+hooman (0.3.6)                       - Pygame for humans
+pygu (4.2.3)                         - Pydsigner's Pygame Utilities - a collection of handy modules for Pygame.
+pybfcontrol (0.0.2)                  - some controls for pygame
+oktas_draw_libs (0.1.1)              - A simplified wrapper for pygame
+genix (0.1.2)                        - GUI library for Pygame
+pygamemaq (0.1.8)                    - Little pygame framework
+pygwin (0.0.1)                       - pygame window system
+robosim (1.0)                        - A pygame robotics simulator.
+thorpy (1.7)                         - GUI library for pygame
+MysteriousBlade (0.12)               - A simple pygame demo.
+pyanimation (0.7)                    - A pygame animation package
+PygamePhysics (0.0.1)                - Help with physics in Pygame
+ts_pygame_engine (1.0.5)             - Simple engine for pygame
+PySliders (0.1.1)                    - A sliders add-on for PyGame
+KoreanInput (1.0)                    - Korean Input for Pygame
+pygame_camera (0.1.1)                - A Camera lib for PyGame
+glyph (2.6.5b)                       - Pygame typesetting library
+pygnetic (1.0)                       - Network library for Pygame
+better-timers-gudninatan (0.0.3)     - Better timers for pygame
+brickbreaker (0.0.8)                 - A Breakout clone with pygame.
+codebear (1.0.3)                     - A pygame role package
+pygameAssets (0.4)                   - pygame add-ons
+KorInput (1.0)                       - Korean Input for Pygame
+PygameMenus (0.0.6)                  - Make menus with pygame
+pymage (0.3.0)                       - Pygame helper package
+pygameui (0.2.0)                     - GUI framework for Pygame
+kotifpg (1.0)                        - Korean text input for pygame
+pyticles (1.0.3)                     - A simple particles system for pygame
+anime (1.1.0)                        - Declarative animation library for pygame.
+graphalama (0.0.1rc0)                - Easy to use widgets for pygame
+repulsiveruby (2.1.5)                - RepulsiveRuby: A game made with Pygame
+py-GameUI (1.0.4)                    - A simple GUI Tool for pygame
+gameoflifepython (1.0.3)             - Game of Life implemented with PyGame.
+pyguix (0.1.1)                       - GUI Library using Pygame
+PygameGUILib (0.4a6)                 - widgets for pygame wit ease
+kundalini (0.4)                      - L&#214;VE-like PyGame API
+pgplot (0.2)                         - Graphing functionality, integrated with pygame!
+pyghelpers (1.0.1)                   - Classes and functions for use with Pygame
+pygametools (0.0.1)                  - Python module with utilities for pygame.
+pygameelements (0.1.56)              - Elements that scale with screensize for pygame
+pygtails (0.1.6)                     - A simple wrapper around pygame
+Pyganim (0.9.2)                      - A sprite animation module for Pygame.
+PygameBg (0.9.3)                     - Pygame Toolbox for Beginners by Petlja
+pygame.snake (0.0.1a0)               - The super-simple pygame framework.
+pygame_fpak (0.1)                    - Flatpak packaging for pygame games.
+python3-albow (2.89.12)              - A Little Bit of Widgetry for PyGame
+Dumbdans-Adventure (0.0.2)           - Arcade game made with pygame
+blobworld (1.1.2)                    - pygame automated animation of blobs
+pgex (0.4.4)                         - A Python PyGame package extension
+EzPyGame (0.3.1)                     - An easier way to use pygame
+pgui (0.0.8.post1)                   - A GUI module compatible with pygame
+sappho (0.14.3)                      - 2D game engine (pygame)
+Pygbutton (0.9.0)                    - A button GUI module for Pygame.
+vterminal (1.3.21)                   - A terminal emulator using pygame.
+koreanforpygame (0.1)                - Korean text input for pygame
+gameterm (0.1.4)                     - Display a terminal inside a pygame program
+pygameoflife-dadeerh (1.1.6)         - Pygame implementation of Conway's Game of Life
+pgext (1.18)                         - Pygame Extension - set of image filters
+pygamer (2.0.5)                      - PyGAMer: Geometry-preserving Adaptive Mesher
+A-Bit-Racey (1.0.0)                  - a Python game to play. Uses pygame.
+pytetris (1.0.0)                     - tetris game with ai made by pygame
+pyviewx.pygame (0.5.1)               - A pygame calibration scene for use with PyViewX
+epgame (0.1.1)                       - easy to do game with pygame for me.

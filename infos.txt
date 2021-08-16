@@ -1,0 +1,25 @@
+***Creation dun document text.txt dans cmd contenant le resultat d une recherche
+    <>pip search phonenumbers > result.txt
+
+***Commande pour installer pip de python sous le cmd
+   <>py -m ensurepip --default-pip
+
+***Commande pour effacer le cmd
+   <>cls
+
+***Commande pour installer un nouveau package avec python
+   <>python install (nom du package)
+
+***Commande pour creer un envirronment virtuelle dans python
+   <>Python  -m venv (nom du dossier qui contiendra cette envirr.)
+***Commande pour demarrer l envir. virtuel
+   <>(nom du sossier)\Scripts\activate.bat
+***Commande pour desactiver l envir. virtuel
+   <>(nom du sossier)\Scripts\deactivate.bat
+
+   *****    print(str.isalnum.__doc__)
+
+   >>> dir(str)
+
+
+

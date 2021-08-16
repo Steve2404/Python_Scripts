@@ -1,0 +1,7 @@
+id-phonenumbers (0.4.0)       - Indonesian Phonenumbers Parser
+service-phonenumbers (1.2.0)  - Phonenumber Microservice client
+phonenumbers (8.12.14)        - Python version of Google's common library for parsing, formatting, storing and validating international phone numbers.
+  INSTALLED: 8.12.14 (latest)
+django-phonenumbers (1.0.1)   - Phone number field for Django admin
+pyfb-direction (1.0.4)        - Phonenumber's direction package
+phone-iso3166 (0.3.6)         - Phonenumber to Country (ISO 3166-1) mapping

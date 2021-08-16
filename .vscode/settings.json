@@ -1,0 +1,23 @@
+{
+    "editor.fontFamily": "Consolas, 'Tahoma', monospace",
+    "editor.fontLigatures": null,
+    "cSpell.ignoreWords": [
+        "aleatoire",
+        "cheveux",
+        "donnez",
+        "etes",
+        "fonction",
+        "fonctions",
+        "gagner",
+        "joueur",
+        "nbre",
+        "nom",
+        "parite",
+        "principale",
+        "vous"
+    ],
+    "cSpell.words": [
+        "votre"
+    ],
+    "files.autoSave": "afterDelay"
+}
