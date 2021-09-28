@@ -19,7 +19,14 @@
 
    *****    print(str.isalnum.__doc__)
 
-   >>> dir(str)
+   >>> dir(str) # Affiche toutes les methodes et variable relative a cette classe
+   >>> touch nom_fichier # Permet de creer un nouveau fichier
+   >>> code fichier # Permet d ouvrir un fichier un fichier
 
-
+**** Pour ajouter un fichier de module au PYTHONPATH
+   ---> ouvrir la variable d environnment
+   ---> aller utilisateur
+   ---> clique sur nouvelle
+   ---> * nom de variable : PYTHONPATH
+        * valeur de variable: on colle le chemin du module
 
