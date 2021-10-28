@@ -1,0 +1,5 @@
+2021-09-29 07:28:57,830 - DEBUG - La fonction aa bien ete executee
+2021-09-29 07:28:57,830 - INFO - Message d information generale
+2021-09-29 07:28:57,830 - WARNING - Attention!
+2021-09-29 07:28:57,831 - ERROR - Une erreur est arrivee
+2021-09-29 07:28:57,831 - CRITICAL - Erreur crique

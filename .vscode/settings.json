@@ -17,7 +17,9 @@
         "vous"
     ],
     "cSpell.words": [
+        "arange",
         "votre"
     ],
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "jupyter.jupyterServerType": "local"
 }

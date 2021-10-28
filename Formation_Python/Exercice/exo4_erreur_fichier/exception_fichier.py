@@ -22,3 +22,4 @@ except FileNotFoundError as e:
     print("Ce fichier n existe pas")
 else:
     f.close()
+

@@ -20,7 +20,7 @@ from pathlib import Path
 
 ## Creer , Lire dans un fichier
 
-fichier = Path("C:/Users/Steve/projet/django/index.html")
+#fichier = Path("C:/Users/Steve/projet/django/index.html")
 #fichier.touch() # Cree un nouveau fichier
 #fichier.unlink() # Suprime un fichier
 
@@ -45,13 +45,36 @@ for f in p.glob("*.png"):
 """
 
 
-""" Cree les constantes d un dossier avec file
-SOURCE_FILE = Path(__file__).resolve() # Permet de resoudre les liens symboliques
-SOURCE_DIR = SOURCE_FILE.parent
-ROOT_DIR = SOURCE_DIR.parent
-DATA_DIR = SOURCE_DIR / "DATA"
+#Cree les constantes d un dossier et  file avec pathlib
+#SOURCE_FILE = Path(__file__).resolve() # Permet de resoudre les liens symboliques
+#SOURCE_DIR = SOURCE_FILE.parent
+#ROOT_DIR = SOURCE_DIR.parent
+#DATA_DIR = SOURCE_DIR / "DATA"
+#print(SOURCE_FILE)
+
+"""
+#Cree les constantes d un dossier et  file avec os
+
+SOURCE_FILE = os.path.realpath(__file__)
+#SOURCE_FILE2 = os.path.abspath(__file__)
+SOURCE_DIR = os.path.dirname(SOURCE_FILE)
+ROOT_DIR = os.path.dirname(SOURCE_DIR)
+DATA_DIR = os.path.join(SOURCE_DIR, "DATA")
+os.mkdir(DATA_DIR)
+print(DATA_DIR)
 """
 
-"""obtenir un chemin entre par l utilisateur"""
+"""obtenir un chemin entre par l utilisateur
 import sys
 print(sys.argv[-1])
+"""
+"""
+dossier_utilisateur = Path.home() # C:\Users\Steve
+dossier_courant = Path.cwd() # C:\Users\Steve\Documents\Python Scripts
+
+for f in dossier_courant.iterdir():
+    print(f.name)
+
+print("**1",dossier_utilisateur)
+print("**2",dossier_courant)
+"""

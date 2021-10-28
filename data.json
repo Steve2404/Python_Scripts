@@ -1,0 +1,41 @@
+{
+    "_default": {
+        "1": {
+            "nom": "Steve",
+            "score": 200,
+            "role": [
+                "pythonista",
+                "javaista"
+            ]
+        },
+        "2": {
+            "nom": "Steve",
+            "score": 200,
+            "role": [
+                "pythonista",
+                "javaista"
+            ]
+        },
+        "3": {
+            "name": "Julie",
+            "score": 80,
+            "role": [
+                "junior"
+            ]
+        },
+        "4": {
+            "nom": "Hugo",
+            "score": 70,
+            "role": [
+                "junior"
+            ]
+        },
+        "5": {
+            "nom": "Madara",
+            "score": 100,
+            "role": [
+                "junior"
+            ]
+        }
+    }
+}

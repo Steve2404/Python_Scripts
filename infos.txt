@@ -11,17 +11,23 @@
    <>python install (nom du package)
 
 ***Commande pour creer un envirronment virtuelle dans python
+Creer d abord u dossier dans lequel on va devoir travaille
+
    <>Python  -m venv (nom du dossier qui contiendra cette envirr.)
+    <>py -3.9  -m venv (nom du dossier qui contiendra cette envirr.)
 ***Commande pour demarrer l envir. virtuel
-   <>(nom du sossier)\Scripts\activate.bat
+   <>(nom du sossier)\Scripts\activate.bat ###  source activate
 ***Commande pour desactiver l envir. virtuel
-   <>(nom du sossier)\Scripts\deactivate.bat
+   <>(nom du sossier)\Scripts\deactivate.bat ### deactivate
+***which pip : Commande permettant de savoir avec quel pip o travail
 
    *****    print(str.isalnum.__doc__)
 
    >>> dir(str) # Affiche toutes les methodes et variable relative a cette classe
    >>> touch nom_fichier # Permet de creer un nouveau fichier
-   >>> code fichier # Permet d ouvrir un fichier un fichier
+   >>> code fichier # Permet d ouvrir un fichier sur visualcode
+   >>> pip3.9 list # connaitre toutes les package installe sur le pc
+   >>> pip3.9 uninstall [nom_package] #Permet de supprimer un package+
 
 **** Pour ajouter un fichier de module au PYTHONPATH
    ---> ouvrir la variable d environnment

@@ -1,0 +1,23 @@
+2021-09-28 19:25:50,720 - INFO - Message d information generale
+2021-09-28 19:25:50,720 - WARNING - Attention!
+2021-09-28 19:25:50,720 - ERROR - Une erreur est arrivee
+2021-09-28 19:25:50,720 - CRITICAL - Erreur crique
+2021-09-28 19:27:07,972 - INFO - Message d information generale
+2021-09-28 19:27:07,972 - WARNING - Attention!
+2021-09-28 19:27:07,972 - ERROR - Une erreur est arrivee
+2021-09-28 19:27:07,972 - CRITICAL - Erreur crique
+2021-09-28 19:29:03,842 - DEBUG - La fonction aa bien ete executee
+2021-09-28 19:29:03,842 - INFO - Message d information generale
+2021-09-28 19:29:03,843 - WARNING - Attention!
+2021-09-28 19:29:03,843 - ERROR - Une erreur est arrivee
+2021-09-28 19:29:03,843 - CRITICAL - Erreur crique
+2021-09-28 19:29:57,407 - DEBUG - La fonction aa bien ete executee
+2021-09-28 19:29:57,407 - INFO - Message d information generale
+2021-09-28 19:29:57,407 - WARNING - Attention!
+2021-09-28 19:29:57,407 - ERROR - Une erreur est arrivee
+2021-09-28 19:29:57,407 - CRITICAL - Erreur crique
+2021-09-28 19:30:17,883 - DEBUG - La fonction aa bien ete executee
+2021-09-28 19:30:17,883 - INFO - Message d information generale
+2021-09-28 19:30:17,883 - WARNING - Attention!
+2021-09-28 19:30:17,883 - ERROR - Une erreur est arrivee
+2021-09-28 19:30:17,883 - CRITICAL - Erreur crique
