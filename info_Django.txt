@@ -1,0 +1,167 @@
+***********Espace Django *******************
+
+## Commande pour installer pip de python sous le cmd
+<>py -m ensurepip --default-pip
+
+## Commande pour creer un envirronment virtuelle dans python
+    + Creer d abord un dossier dans lequel on va devoir travaille
+<>Python  -m venv (nom du dossier qui contiendra cette envirr. ".env")
+<>py -3.9  -m venv (nom du dossier qui contiendra cette envirr.)
+
+
+## Commande pour demarrer l envir. virtuel
+<>(nom du dossier)\Scripts\activate.bat ##oder:  source activate
+<> source nom_dossier/Scripts/activate
+
+## Commande pour desactiver l envir. virtuel
+<>(nom du dossier)\Scripts\deactivate.bat ### deactivate
+
+
+## Commande permettant de savoir avec quel pip o travail
+<>which pip 
+
+## Commande permettant de savoir la version de Django:
+<> python -m django --version
+
+## pour afficher l aide dans django-admin:
+<> django-admin --help
+
+<>pip freeze > requirements.txt # permet de geler notre app. dans le fichier requirements
+                                # sauvegarde toutes les versions de bibliotheques
+
+## Avoir une appercue des biblio            
+<>cat requirements(unix)
+<>more requirements(windows)
+
+## Installation de Django a partir du fichier requirements
+<>pip install -r requirements.txt
+
+## Cree un nouveau projet Django:
+<> django-admin startproject nom_projet
+
++ Renomme le dossier contenant tous les autres dossiers et fichier en src
+
+## Lancer un server:
+<> python manage.py runserver
+
++ cree un fichier python views qui va contenir nos vu( faire la liaison avec nos fichiers HTML, CSS etc..)
++ le faire redirige dans le fichier "urls"
++ Django sais ca grace a la variable ROOT_URLCONF dans setting
+
++ Creer un dossier templates qui va contenir nos fichiers HTML, CSS etc..
++ ajouter le dossier template dans le fichier de settings
+    -- os.path.join(BASE_DIR, "nom_sous dossier/templates")
+
++ grace au "context"(qui est un dictionnaire {"cle": valeur}) on peut faire passe des elements 
+  de notres fichiers views a notre templates:
+    -- on passe ces infos grace a "{{cle}}" dans nos fichier HTML
++ on peut ainsi introduire des filtres grace a operateur pipe("|") pres de nos cles dans nos fichier HTML
+
++ une Application permet de separer les choses, de maniere a bien pouvoir gerer ses projets
+## Creer une Application
+<>python manage.py startapp nom_application
+
++ Ensuite on doit renseigner le nom de l application dans list INSTALLED_APPS situe dans settings.py
++ ajoutez un fichier urls.py dans l application 
++ Creez ensuite une liste urlpatterns qui va contenir les chemin des urls de l application
++ On lie maintenant urls de notre application a celui de notre projet:
+    <>path('expl/', include("nom_application.urls"))
+
++ Dans views de notre application, on cree une methode index:
+<> def index(request):
+        return render(request, "fichier_html")
+
++ Cree un dossier template dans l application de meme nom que celui du projet ("templates")
++ Creez ensuite un sous-dossier de meme nom que l application dans template de l application
+  et un autre sous-dossier de meme nom que le projet dans le template du projet.
+  Cela permet de resoudre les problemes de conflit de nom
+
+## Recuperation d un element se trouvant sur notre urls.py:
+ <str:nom_element> --> Ici on recupere un string
+ <int:nom_element> --> ................ un integer
+
++ Les fichiers CSS ou Javascript sont stockes dans des fichiers statics
++ Pour recuperer le chemin complet vers des ressources static on utilise le gabarit:
+    <> ....... href = "{% 'chemin_fichier_CSS' %}"
++ Ajoutez ensuite au debut de du Script HTML : {% load static %}
++ Specifiez ensuite dans le fichier settings.py comment Django peut trouver les fichiers static 
+  dans notre Projet:
+    -> On cree donc cette liste dans settings.py: 
+       <> STATICFILES_DIRS = [os.path.join(BASE_DIR, "nom_projet/static")]
+
+
+## commande permettant de créer un utilisateur administrateur pour l'interface d'admin:
+    <>createsuperuser
+
+## La commande migrate permet de:  <>python manage.py migrate
+    + de creer des tables dans la base de donnees
+
+## pour rediriger une vue vers une autre URL:
+    <>redirect
+
+##  le framework Django est base sur:
+    + une architecture Modèle Vue Template (MVT)
+
+----> Les Base de donnees:
+ 1. BD Structure relationnelles: sont plus organises et plus rapide
+    -- Exple: SQL
+        --Exple SGBDR: SQLLite, MySQL, PosGreSQL
+
+ 2. BD non structurees: donnees non organises
+    -- Exple: NoSQL
+        --Exple SGBDR: Redix, MongoDB, Neo4J
+
+## ORM : Objet Relation Mapping
++ En python on represente les Table par les class
++ un ORM: permet donc d utiliser l oriente objet pour manipuler une base de donnees relationnelles.
+  -- Donc avec l ORM on pas besion d utiliser les codes SQL pour manipuler nos BD
+
++ La synthaxe "blank = False" dans la declaration d une class, signifique 
+   cette attribut ne doit pas etre vide dans dans un tableau
++ La synthaxe "null = False" signifique, ce champs ne doit pas etre vide dans la BD
+  et stocke donc NULL dans le BD lorsque ce dernier est "True"
+
++ un "Slug" est un moyen d afficher une chaine de caractere dans un url
+
+## Creer des fichiers de migrations dans l application:
+<>python manage.py makemigrations nom_application
+
+
++ Afficher sous forme de code SQL ce qui va etre migrate
+<>python manage.py sqlmigrate nom_application nom_fichier
+
++ Ensuite appliquez les migrations dans notre BD
+<>python manage.py migrate nom_application
+
+## Utilisation de la commande shell de Django
+<>python manage.py shell
+    >>>from nom_application.models import nom_class
+    >>>enrgistrem.save() # pour enregistrer un enrgistrement
+
+    >>>nom_class.objects.create(.....) # autre facon de faire des enrgistrement dans une BD
+
+## Queryset
+    >>>nom_class.objects.all() #recuperez tous les entrees de notre BD
+    >>>nom_class.objects.get(attribut) #recuperez un attribut de notre BD
+
+    >>>nom_class.objects.filter(categorie="...") # recupere tous les elements de la BD 
+                                                    dont le categorie = ......
+
+
+## Creez un super utilisateur
+<>python manage.py createsuperuser
+
++ L assignation des elements dans une relation de plusieurs a plusieurs se fait grace a "set()"
+<>nom_instance.colonne.set([liste des element a ajouter])
+<>nom_instance.colonne.add(element]) # ajout d un element a la suite des autres
+<>nom_instance.colonne.remove(element]) # retirer un element
+<>nom_instance.colonne.clear(element]) # supprime toutes les relations
+
+## Operation inverse:
+<>enrgistrement.nom_class_set # le nom de la class doit etre en miniscule    
+
+
+
+
+
+

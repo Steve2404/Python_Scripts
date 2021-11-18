@@ -1,3 +1,16 @@
+**** Installation d un package sous une version de python ******
+   <>py -3.9 -m pip install nom_package
+
+***** Lancer juperlab *****
+   <> py -3.9 -m jupyterlab
+
+
+**** permet de creer une nouvelle app.*******
+    <>python manage.py startapp nom de l appli.
+
+
+
+
 ***Creation dun document text.txt dans cmd contenant le resultat d une recherche
     <>pip search phonenumbers > result.txt
 
@@ -15,16 +28,40 @@ Creer d abord u dossier dans lequel on va devoir travaille
 
    <>Python  -m venv (nom du dossier qui contiendra cette envirr.)
     <>py -3.9  -m venv (nom du dossier qui contiendra cette envirr.)
+
 ***Commande pour demarrer l envir. virtuel
-   <>(nom du sossier)\Scripts\activate.bat ###  source activate
+   <>(nom du dossier)\Scripts\activate.bat ###  source activate
+   <> source nom_dossier/Scripts/activate
+
 ***Commande pour desactiver l envir. virtuel
-   <>(nom du sossier)\Scripts\deactivate.bat ### deactivate
+   <>(nom du dossier)\Scripts\deactivate.bat ### deactivate
+
 ***which pip : Commande permettant de savoir avec quel pip o travail
+
+*** Commande permettant de savoir la version de Django:
+   <> python -m django --version
+*** Installer une version precise de django a l aide du fichier Sauvegarder
+   <> pip install -r nom_fichier.txt
+*** Cree un nouveau projet Django:
+   <> django-admin startproject nom_projet
+*** pour afficher l aide dans django-admin:
+   <> django-admin --help
+*** Lancer un server:
+   <> python manage.py runserver
+
+*** Sauvegarder les versions des bibliotheques:
+   <> pip freeze nom_fichier.txt
+*** Recuperer les bibliotheques Sauvegarder:
+   <> cat nom_fichier.txt (sous unix)
+   <> more nom_fichier.txt (sous windows)
+
 
    *****    print(str.isalnum.__doc__)
 
    >>> dir(str) # Affiche toutes les methodes et variable relative a cette classe
-   >>> touch nom_fichier # Permet de creer un nouveau fichier
+   >>> touch nom_fichier # Permet de creer un nouveau fichier(inux)
+   >>> echo> nom_fichier # Permet de creer un nouveau fichier(windows)
+
    >>> code fichier # Permet d ouvrir un fichier sur visualcode
    >>> pip3.9 list # connaitre toutes les package installe sur le pc
    >>> pip3.9 uninstall [nom_package] #Permet de supprimer un package+
